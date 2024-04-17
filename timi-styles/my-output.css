@@ -560,6 +560,7 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
+  padding: 0% ;
   /* @apply text-center  */
 }
 
@@ -571,6 +572,9 @@ video {
   display: flex;
 }
 
+div{
+  padding: 40px;
+}
 
 body::-webkit-scrollbar{
   display: none;
