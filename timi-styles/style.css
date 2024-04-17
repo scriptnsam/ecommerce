@@ -11,6 +11,11 @@
     /* @apply text-center  */
    
 }  
+.logo12{
+    color: #74a84a;
+    fill: aliceblue;
+
+}
 
 .headstore{
     @apply m-auto
