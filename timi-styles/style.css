@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.head{
+    background-image: url("../img/Banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    /* @apply text-center  */
+   
+}  
+.headstore{
+    @apply m-auto
+}
+.flex{
+    display: flex;
+}
+div{
+    padding: 40px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+p{
+    @apply font-bold
+}
+.what{
+   font-weight: bolder;
+   font-size: x-large;
+   font: bolder;
+}
+.imgwhat{
+    border-radius: 50%;
+}
+.div2{
+    background-image: url(../img/Call-to-action.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    justify-content: center;
+}
+Button{
+    background-color: green;
+    box-sizing: border-box;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer{
+    display: inline;
+    position: fixed;
+    padding: 20px;
+}
+
+.footer1{
+    @apply flex items-center justify-around
+}
+
+.payment-note{
+    @apply flex items-center justify-center
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar ul li a:hover{
+    color: rgba(0, 255, 106, 0.726);
+}
