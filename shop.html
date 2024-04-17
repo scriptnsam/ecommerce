@@ -12,13 +12,9 @@
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"/>
-    <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <script type="module">
-        import Nav from "/script/nav"
-        console.log(Nav)
-    </script>
+    <div id="navContainer"></div>    
     <div class="border-r-gray-500 border-r pt-20">
         <div class="flex max-md:flex-col">
             <div class="left border-r-gray-300 border-r w-[30%] px-2 py-4 max-md:order-2 max-md:w-[100%] max-md:border-none ">
@@ -142,5 +138,7 @@
             </div>
         </div>
     </div>    
+
+    <script src="script/loadNav.js"></script>
 </body>
 </html>
