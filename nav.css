@@ -1,0 +1,21 @@
+.navbar{
+    width: 90%;
+    margin: auto;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar ul li a:hover{
+color: rgba(0, 255, 106, 0.726);
+
+}
