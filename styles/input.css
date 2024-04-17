@@ -27,7 +27,7 @@ body{
 }
 
 .contact-section{
-    @apply w-[42%] p-3
+    @apply w-[42%] p-3 max-md:w-[100%]
 }
 
 .h-line{
@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .form-input-div{
-    @apply w-[90%] m-auto border border-[#d9d9d9]
+    @apply w-[90%] m-auto border border-[#d9d9d9] max-md:w-[100%]
 }
 
 .form-input{
