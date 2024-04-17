@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Planet Earth Store</title>
+    <link rel="stylesheet" href="styles/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="border-t-1 pt-20">
+        <div class="flex max-md:flex-col">
+            <div class="left border-r-gray-300 border-r w-[30%] px-2 py-4 max-md:order-2 max-md:w-[100%] max-md:border-none ">
+                <form action="#">
+                    <div class=" flex items-start justify-center space-x-3">
+                        <div class=" max-md:w-[80%] border h-[50px]"><input class="w-[100%] h-[100%] focus:outline-none px-3 select " type="text" placeholder="Search products..." required></div>            
+                        <button class="border w-[60px] h-[50px] bg-[#74a84a] hover:bg-[#45632d] duration-200 border-none text-white" type="submit">S</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="right w-[70%] px-3 py-4 pl-7 max-sm:pl-3 max-md:w-[100%] ">
+                <div class="text-gray-500">Home / Shop</div>
+                <div class="text-6xl mt-5 text-[#74a84a] font-jost ">Shop</div>
+                <div class="mt-8 text-gray-500 flex max-sm:flex-col max-sm:justify-items-start items-center justify-between mr-8">
+                    <div>Showing all 12 results</div>
+                    <div><select class=" p-2 select duration-300">
+                        <option value="default" selected>Default sorting</option>
+                        <option value="default">Sort by popularity</option>
+                        <option value="default">Sort by average rating</option>
+                        <option value="default">Sort by latest</option>
+                        <option value="default">Sort by price: low to high</option>
+                        <option value="default">Sort by price: high to low</option>
+
+                    </select></div>
+                </div>
+
+                <!-- products list -->
+                <div class=" mt-11 mr-8m py-2 flex flex-wrap lg:justify-evenly sm:justify-around space-y-2 gap-2 max-sm:justify-center">
+                    <div class="product-list">
+                        <img src="images/product1.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V1</div>
+                        <div class="p-inner-3">$15.78</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product2.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V2</div>
+                        <div class="p-inner-3">$42.99</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product3.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V3</div>
+                        <div class="p-inner-3">$73.36</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product1.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V1</div>
+                        <div class="p-inner-3">$15.78</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product2.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V2</div>
+                        <div class="p-inner-3">$42.99</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product3.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V3</div>
+                        <div class="p-inner-3">$73.36</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product1.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V1</div>
+                        <div class="p-inner-3">$15.78</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product2.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V2</div>
+                        <div class="p-inner-3">$42.99</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product3.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V3</div>
+                        <div class="p-inner-3">$73.36</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product1.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V1</div>
+                        <div class="p-inner-3">$15.78</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product2.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V2</div>
+                        <div class="p-inner-3">$42.99</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product3.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V3</div>
+                        <div class="p-inner-3">$73.36</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product1.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V1</div>
+                        <div class="p-inner-3">$15.78</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product2.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V2</div>
+                        <div class="p-inner-3">$42.99</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="images/product3.jpg" class=" w-[100%] h-[280px] max-sm:h-[320px] " alt="first-image">
+                        <div class="p-inner-1">Posters</div>
+                        <div class="p-inner-2">Poster V3</div>
+                        <div class="p-inner-3">$73.36</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

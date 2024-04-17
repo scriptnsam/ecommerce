@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply m-0 p-0 font-roboto
+}
+
+.product-list{
+    @apply max-w-[350px] min-w-[200px] max-sm:min-w-[100%] max-md:min-w-[50%]
+}
+
+.p-inner-1{
+    @apply text-gray-400 mt-2 font-jost text-sm
+}
+
+.p-inner-2{
+    @apply font-jost text-[1em] font-semibold mt-2
+}
+
+.p-inner-3{
+    @apply mt-2 font-bold text-gray-500
+}
+
+.select:focus{
+    @apply outline-none border border-dotted border-[#74a84a]
+}
