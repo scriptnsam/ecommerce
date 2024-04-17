@@ -571,9 +571,6 @@ video {
   display: flex;
 }
 
-div{
-  padding: 40px;
-}
 
 body::-webkit-scrollbar{
   display: none;
