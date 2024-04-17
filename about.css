@@ -2,10 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.logo{
-    cursor: pointer;
-    
-}
+
 .main{
     background-image: url(donald-images/About-banner.jpg);
     background-position: center;
@@ -35,16 +32,31 @@ body{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 .second img{
     height: auto;
     width: 40%;
+    margin-right: 50px;    
+    border: 1px;
 }
 .text{
     width: 40%;
+    border: 1px;
+    margin-left: 50px;    
 }
 .text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text p{
+    color: rgb(88, 87, 87) ;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 25px;
 
+}
+.third{
+    
 }
