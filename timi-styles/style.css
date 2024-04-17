@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .head{
-    background-image: url("../img/Banner.jpg");
+    /* background-image: url("../img/Banner.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ body::-webkit-scrollbar{
     display: none;
 }
 .main{
-    background-image: url(../img/Banner.jpg);
+    /* background-image: url(../img/Banner.jpg); */
     background-position: center;
     background-size: cover;
     width: 100%;
