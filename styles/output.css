@@ -646,10 +646,6 @@ video {
   border-right-width: 1px;
 }
 
-.border-t-2 {
-  border-top-width: 2px;
-}
-
 .border-none {
   border-style: none;
 }
@@ -690,14 +686,6 @@ video {
 
 .pl-7 {
   padding-left: 1.75rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
 }
 
 .pt-20 {
