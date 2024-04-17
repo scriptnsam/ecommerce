@@ -23,6 +23,13 @@ div{
 body::-webkit-scrollbar{
     display: none;
 }
+.main{
+    background-image: url(../img/Banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
 p{
     @apply font-bold
 }
@@ -48,7 +55,11 @@ Button{
     color: white;
     padding: 10px;
     border-radius: 5px;
+    font-weight: bold;
 }
+ .poster {
+    font-weight: lighter;
+ }
 .footer{
     display: inline;
     position: fixed;
