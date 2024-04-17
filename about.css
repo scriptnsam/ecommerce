@@ -31,5 +31,17 @@ body{
 .second{
     width: 100%;
     padding: 100px 0px;
-    background-color: white;
+    background-color: rgb(238, 235, 231);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.second img{
+    height: auto;
+    width: 40%;
+}
+.text{
+    width: 40%;
 }
