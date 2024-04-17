@@ -54,5 +54,5 @@ textarea{
 button{
     line-height: 1em;
     letter-spacing: 3px;
-    @apply py-[15px] px-[20px] text-[0.94117647058824rem] w-auto inline-block text-center box-border uppercase font-[400] text-white bg-[#74a84a] hover:bg-[#202e15] duration-200
+    @apply py-[15px] px-[20px] text-[0.94117647058824rem] w-auto inline-block text-center box-border uppercase font-[400] text-white bg-[#74a84a] hover:bg-[#202e15] duration-200 rounded-none hover:text-white
 }

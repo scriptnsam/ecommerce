@@ -899,6 +899,7 @@ button{
   box-sizing: border-box;
   display: inline-block;
   width: auto;
+  border-radius: 0px;
   --tw-bg-opacity: 1;
   background-color: rgb(116 168 74 / var(--tw-bg-opacity));
   padding-top: 15px;
@@ -917,6 +918,8 @@ button{
 button:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(32 46 21 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:bg-\[\#45632d\]:hover {
