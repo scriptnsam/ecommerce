@@ -554,12 +554,32 @@ video {
   --tw-contain-style:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mr-8 {
   margin-right: 2rem;
 }
 
 .mt-11 {
   margin-top: 2.75rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-5 {
@@ -638,6 +658,12 @@ video {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
 .border {
   border-width: 1px;
 }
@@ -655,9 +681,23 @@ video {
   border-right-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.border-r-gray-500 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
 .bg-\[\#74a84a\] {
   --tw-bg-opacity: 1;
   background-color: rgb(116 168 74 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-2 {
@@ -692,6 +732,10 @@ video {
   padding-top: 5rem;
 }
 
+.align-baseline {
+  vertical-align: baseline;
+}
+
 .font-jost {
   font-family: Jost, sans-serif;
 }
@@ -699,6 +743,18 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-\[37px\] {
+  font-size: 37px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .text-\[\#74a84a\] {
@@ -726,6 +782,8 @@ video {
 
 body {
   margin: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 254 254 / var(--tw-bg-opacity));
   padding: 0px;
   font-family: Roboto, sans-serif;
 }
@@ -779,6 +837,88 @@ body {
   outline-offset: 2px;
 }
 
+.contact-section {
+  width: 42%;
+  padding: 0.75rem;
+}
+
+.h-line{
+  line-height: 1.3em;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Jost;
+  font-weight: 500;
+  clear: both;
+}
+
+.form-input-div {
+  margin: auto;
+  width: 90%;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(217 217 217 / var(--tw-border-opacity));
+}
+
+.form-input {
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.form-input:focus {
+  border-width: 1px;
+  border-style: dotted;
+  --tw-border-opacity: 1;
+  border-color: rgb(116 168 74 / var(--tw-border-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.form-input::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity));
+}
+
+.form-input::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity));
+}
+
+textarea {
+  height: 5rem;
+}
+
+button{
+  line-height: 1em;
+  letter-spacing: 3px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: auto;
+  --tw-bg-opacity: 1;
+  background-color: rgb(116 168 74 / var(--tw-bg-opacity));
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 0.94117647058824rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-duration: 200ms
+}
+
+button:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 46 21 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-\[\#45632d\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(69 99 45 / var(--tw-bg-opacity));
@@ -792,6 +932,14 @@ body {
 @media not all and (min-width: 768px) {
   .max-md\:order-2 {
     order: 2;
+  }
+
+  .max-md\:-mt-\[100px\] {
+    margin-top: -100px;
+  }
+
+  .max-md\:h-\[400px\] {
+    height: 400px;
   }
 
   .max-md\:w-\[100\%\] {
@@ -809,9 +957,21 @@ body {
   .max-md\:border-none {
     border-style: none;
   }
+
+  .max-md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .max-md\:font-normal {
+    font-weight: 400;
+  }
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:h-\[300px\] {
+    height: 300px;
+  }
+
   .max-sm\:h-\[320px\] {
     height: 320px;
   }

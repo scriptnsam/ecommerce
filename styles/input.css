@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    @apply m-0 p-0 font-roboto
+    @apply m-0 p-0 font-roboto bg-[#fefefe]
 }
 
 .product-list{
@@ -24,4 +24,35 @@ body{
 
 .select:focus{
     @apply outline-none border border-dotted border-[#74a84a]
+}
+
+.contact-section{
+    @apply w-[42%] p-3
+}
+
+.h-line{
+    line-height: 1.3em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Jost;    
+    font-weight: 500;
+    clear: both;
+}
+
+.form-input-div{
+    @apply w-[90%] m-auto border border-[#d9d9d9]
+}
+
+.form-input{
+    @apply w-[100%] select px-2 py-[15px] text-lg placeholder:text-[#a3a3a3]
+}
+
+textarea{
+    @apply h-20
+}
+button{
+    line-height: 1em;
+    letter-spacing: 3px;
+    @apply py-[15px] px-[20px] text-[0.94117647058824rem] w-auto inline-block text-center box-border uppercase font-[400] text-white bg-[#74a84a] hover:bg-[#202e15] duration-200
 }

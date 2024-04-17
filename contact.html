@@ -5,22 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="styles/output.css">
 </head>
 <body>
-    <div class="main">
+    <div class="main max-md:h-[400px] max-sm:h-[300px]">
         <div id="navContainer"></div>
-        <div class="content">
-            <h1>Contact Us</h1>
+        <div class="content max-md:-mt-[100px]">
+            <h1 class="max-md:text-[40px] max-md:font-normal relative">Contact Us</h1>
         </div>
 
     </div>
 
-    <div class="">
-        <section>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti debitis quaerat consectetur quos! Dolorem porro dolore, sunt voluptates tenetur exercitationem eos non quam beatae distinctio illum, ut laboriosam. Illum, ipsam!
+    <div class="flex mt-20 mb-20 justify-center">
+        <section class="contact-section">
+            <h2 class="text-[37px] h-line align-baseline capitalize">Get in touch</h2>
+
+            <!-- form section -->
+            <div class=" m-auto mt-16 p-10 bg-white">
+                <form action="#" class="space-y-5">
+                    <div class="form-input-div">
+                        <input required class="form-input" type="text" name="fullname" id="fullname" placeholder="Full name">
+                    </div>
+                    <div class="form-input-div">
+                        <input required class="form-input" type="number" name="Phone Numder" id="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-input-div">
+                        <input required class="form-input" type="text" name="Email" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-input-div">
+                        <textarea required name="message" class="form-input" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-input-div border-none">
+                        <button type="submit">Send now</button>
+                    </div>
+                </form>
+                
+            </div>
         </section>
-        <section>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet ad quam odit? Repellendus pariatur sint in nisi ullam totam, facere asperiores. Possimus officiis ea animi temporibus, ad dignissimos voluptatem.
+
+
+        <section class="contact-section">
+            <h2 class="text-[37px] h-line align-baseline capitalize">talk to us</h2>
         </section>
     </div>
     
