@@ -98,7 +98,9 @@ button:hover{
     
       }
       .footer1 a{
+        list-style: none;
         text-decoration: none;
         margin: 5px;
+        color: black;
     
       }
