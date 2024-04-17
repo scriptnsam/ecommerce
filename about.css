@@ -53,10 +53,52 @@ body{
 .text p{
     color: rgb(88, 87, 87) ;
     letter-spacing: 1px;
-    line-height: 35px;
+    line-height: 28px;
     font-size: 25px;
 
 }
 .third{
-    
+    background-image: url("donald-images/Talk-to-us.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
 }
+.third h1{
+    font-size: 50px;
+}
+.third p{
+    font-size: 20px;
+    color: rgb(79, 79, 80);
+}
+button{
+    width: 20%;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    background-color: rgb(63, 146, 63);
+    transition: 0.5s ease-in-out ;
+}
+button:hover{
+    color: rgba(13, 44, 26, 0.726);
+    border: none;
+    
+    }
+    .footer1 {
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        text-decoration: none;
+    
+      }
+      .footer1 a{
+        text-decoration: none;
+        margin: 5px;
+    
+      }
